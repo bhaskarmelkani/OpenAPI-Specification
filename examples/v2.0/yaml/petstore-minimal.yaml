@@ -27,7 +27,7 @@
           "200":
             description: "A list of pets."
             schema: 
-              type: "array"
+              type: "object"
               items: 
                 $ref: "#/definitions/Pet"
   definitions: 
